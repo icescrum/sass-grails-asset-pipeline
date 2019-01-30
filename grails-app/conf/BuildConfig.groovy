@@ -12,7 +12,10 @@ grails.project.dependency.resolution = {
         jcenter()
     }
     dependencies {
-        compile 'com.bertramlabs.plugins:sass-asset-pipeline:2.14.1'
+        compile 'com.bertramlabs.plugins:sass-asset-pipeline:2.14.1', {
+            excludes 'jsass'
+        }
+        compile 'io.bit3:jsass:5.5.0'
     }
 
     plugins {
