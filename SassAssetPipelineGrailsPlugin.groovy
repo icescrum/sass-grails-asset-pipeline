@@ -3,7 +3,7 @@ import asset.pipeline.AssetPipelineConfigHolder
 
 class SassAssetPipelineGrailsPlugin {
     def loadAfter = ['asset-pipeline']
-    def version         = "2.14.1"
+    def version         = "2.14.2"
     def grailsVersion   = "2.2 > *"
     def title           = "SASS/SCSS Asset-Pipeline Plugin"
     def author          = "David Estes"
@@ -15,5 +15,5 @@ class SassAssetPipelineGrailsPlugin {
     def issueManagement = [ system: "GITHUB", url: "http://github.com/bertramdev/sass-grails-asset-pipeline/issues" ]
     def scm             = [ url: "http://github.com/bertramdev/sass-grails-asset-pipeline" ]
     def developers      = [ [name: 'Brian Wheeler'], [name: 'Jeremy Leng'], [name: 'Jordon Saardchit'], [name: 'Jeremy Crosbie'], [name: 'Bob Whiton'], [name: 'Andy Warner'] ]
-
+    def groupId = "org.icescrum"
 }
