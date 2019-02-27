@@ -15,7 +15,7 @@ grails.project.dependency.resolution = {
         compile 'com.bertramlabs.plugins:sass-asset-pipeline:2.14.1', {
             excludes 'jsass'
         }
-        compile 'io.bit3:jsass:5.5.0'
+        compile 'io.bit3:jsass:5.7.3'
     }
 
     plugins {
